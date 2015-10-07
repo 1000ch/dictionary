@@ -23,6 +23,7 @@ export const activate = () => {
 export const provideLinter = () => {
 
   return {
+    name: 'polylint',
     grammarScopes: ['text.html.basic'],
     scope: 'file',
     lintOnFly: true,
