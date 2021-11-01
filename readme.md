@@ -1,4 +1,4 @@
-# html-escape [![Build Status](https://travis-ci.org/1000ch/html-escape.svg?branch=master)](https://travis-ci.org/1000ch/html-escape)
+# html-escape ![test](https://github.com/1000ch/html-escape/actions/workflows/test.yml/badge.svg?branch=main)
 
 Escape HTML special characters.
 
