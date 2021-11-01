@@ -11,7 +11,7 @@ $ npm install 1000ch/html-escape
 ## Usage
 
 ```javascript
-const escapeHTML = require('html-escape');
+import escapeHTML from 'html-escape';
 
 escapeHTML('<html></html>');
 // => &lt;html&gt;&lt;/html&gt;

@@ -1,9 +1,9 @@
-const test = require('tape');
-const isFunction = require('is-function');
-const escapeHTML = require('./');
+import test from 'ava';
+import isFunction from 'is-function';
+import escapeHTML from './index.js';
 
 test('escapeHTML', t => {
-  t.ok(isFunction(escapeHTML), 'is a function');
+  t.true(isFunction(escapeHTML));
 
   const object = {};
   const array = [];
@@ -34,6 +34,4 @@ test('escapeHTML', t => {
     '&lt;div id=&#x27;container&#x27;&gt;',
     'returns escaped value'
   );
-
-  t.end();
 });
